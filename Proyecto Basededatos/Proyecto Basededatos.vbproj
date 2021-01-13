@@ -1,0 +1,260 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{C5193966-AE01-4F14-AF51-B36CE4676A9A}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>Proyecto_Basededatos.My.MyApplication</StartupObject>
+    <RootNamespace>Proyecto_Basededatos</RootNamespace>
+    <AssemblyName>Proyecto Basededatos</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>x64</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Proyecto Basededatos.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Proyecto Basededatos.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Oracle.DataAccess, Version=4.112.2.0, Culture=neutral, PublicKeyToken=89b483f429c47342, processorArchitecture=AMD64">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\oraclexe\app\oracle\product\11.2.0\server\odp.net\bin\4\Oracle.DataAccess.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Formularios\AgregarAlumnos.Designer.vb">
+      <DependentUpon>AgregarAlumnos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\AgregarAlumnos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Comandos\AgregarAlumnosComandos1.vb" />
+    <Compile Include="Comandos\AgregarCarreracomandos.vb" />
+    <Compile Include="Formularios\AgregarCarreras.Designer.vb">
+      <DependentUpon>AgregarCarreras.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\AgregarCarreras.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\AgregarCiudades.Designer.vb">
+      <DependentUpon>AgregarCiudades.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\AgregarCiudades.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Comandos\AgregarCiudadesComandos.vb" />
+    <Compile Include="Formularios\AgregarDepartamentos.Designer.vb">
+      <DependentUpon>AgregarDepartamentos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\AgregarDepartamentos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Comandos\AgregarDepartamentoscomandos.vb" />
+    <Compile Include="Formularios\AgregarEntrenadores.Designer.vb">
+      <DependentUpon>AgregarEntrenadores.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\AgregarEntrenadores.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Comandos\AgregarEntrenadoresComandos.vb" />
+    <Compile Include="Comandos\AgregarEquiposComandos.vb" />
+    <Compile Include="Formularios\AgregarEquiposDeportivos.Designer.vb">
+      <DependentUpon>AgregarEquiposDeportivos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\AgregarEquiposDeportivos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\AgregarEstados.Designer.vb">
+      <DependentUpon>AgregarEstados.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\AgregarEstados.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Comandos\AgregarEstadosComandos.vb" />
+    <Compile Include="Comandos\AgregarGenerosComandos.vb" />
+    <Compile Include="Formularios\AgregarIntegrantes.Designer.vb">
+      <DependentUpon>AgregarIntegrantes.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\AgregarIntegrantes.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Comandos\AgregarIntegrantesComandos.vb" />
+    <Compile Include="Formularios\AgregarLogin.Designer.vb">
+      <DependentUpon>AgregarLogin.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\AgregarLogin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Comandos\AgregarLoginComandos.vb" />
+    <Compile Include="Formularios\AgregarParticipaciones.Designer.vb">
+      <DependentUpon>AgregarParticipaciones.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\AgregarParticipaciones.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Comandos\AgregarParticipacionesComandos.vb" />
+    <Compile Include="Formularios\AgregarTec.Designer.vb">
+      <DependentUpon>AgregarTec.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\AgregarTec.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Comandos\AgregarTeccomandos.vb" />
+    <Compile Include="Comandos\comadosdellamada.vb" />
+    <Compile Include="Formularios\Generos.Designer.vb">
+      <DependentUpon>Generos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Generos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Global\Globales.vb" />
+    <Compile Include="Formularios\Login.Designer.vb">
+      <DependentUpon>Login.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Login.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Conexion\Oracle.vb" />
+    <Compile Include="Formularios\Tec.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Tec.Designer.vb">
+      <DependentUpon>Tec.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Formularios\AgregarAlumnos.resx">
+      <DependentUpon>AgregarAlumnos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\AgregarCarreras.resx">
+      <DependentUpon>AgregarCarreras.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\AgregarCiudades.resx">
+      <DependentUpon>AgregarCiudades.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\AgregarDepartamentos.resx">
+      <DependentUpon>AgregarDepartamentos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\AgregarEntrenadores.resx">
+      <DependentUpon>AgregarEntrenadores.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\AgregarEquiposDeportivos.resx">
+      <DependentUpon>AgregarEquiposDeportivos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\AgregarEstados.resx">
+      <DependentUpon>AgregarEstados.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\AgregarIntegrantes.resx">
+      <DependentUpon>AgregarIntegrantes.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\AgregarLogin.resx">
+      <DependentUpon>AgregarLogin.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\AgregarParticipaciones.resx">
+      <DependentUpon>AgregarParticipaciones.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\AgregarTec.resx">
+      <DependentUpon>AgregarTec.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Generos.resx">
+      <DependentUpon>Generos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Login.resx">
+      <DependentUpon>Login.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Tec.resx">
+      <DependentUpon>Tec.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+</Project>

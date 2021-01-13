@@ -1,0 +1,42 @@
+C:\Users\eusoj\source\repos\Proyecto Basededatos\Proyecto Basededatos\bin\Debug\Proyecto Basededatos.exe.config
+C:\Users\eusoj\source\repos\Proyecto Basededatos\Proyecto Basededatos\bin\Debug\Proyecto Basededatos.exe
+C:\Users\eusoj\source\repos\Proyecto Basededatos\Proyecto Basededatos\bin\Debug\Proyecto Basededatos.pdb
+C:\Users\eusoj\source\repos\Proyecto Basededatos\Proyecto Basededatos\bin\Debug\Proyecto Basededatos.xml
+C:\Users\eusoj\source\repos\Proyecto Basededatos\Proyecto Basededatos\obj\Debug\Proyecto Basededatos.vbprojAssemblyReference.cache
+C:\Users\eusoj\source\repos\Proyecto Basededatos\Proyecto Basededatos\obj\Debug\Proyecto_Basededatos.Resources.resources
+C:\Users\eusoj\source\repos\Proyecto Basededatos\Proyecto Basededatos\obj\Debug\Proyecto Basededatos.vbproj.GenerateResource.cache
+C:\Users\eusoj\source\repos\Proyecto Basededatos\Proyecto Basededatos\obj\Debug\Proyecto Basededatos.vbproj.CoreCompileInputs.cache
+C:\Users\eusoj\source\repos\Proyecto Basededatos\Proyecto Basededatos\obj\Debug\Proyecto Basededatos.exe
+C:\Users\eusoj\source\repos\Proyecto Basededatos\Proyecto Basededatos\obj\Debug\Proyecto Basededatos.xml
+C:\Users\eusoj\source\repos\Proyecto Basededatos\Proyecto Basededatos\obj\Debug\Proyecto Basededatos.pdb
+C:\Users\eusoj\source\repos\Proyecto Basededatos\Proyecto Basededatos\obj\Debug\Proyecto_Basededatos.Tec.resources
+C:\Users\eusoj\source\repos\Proyecto Basededatos\Proyecto Basededatos\bin\Debug\Oracle.DataAccess.dll
+C:\Users\eusoj\source\repos\Proyecto Basededatos\Proyecto Basededatos\obj\Debug\Proyecto Basededatos.vbproj.CopyComplete
+C:\Users\eusoj\source\repos\Proyecto Basededatos\Proyecto Basededatos\obj\Debug\Proyecto_Basededatos.AgregarTec.resources
+C:\Users\User\Downloads\¿'\Proyecto Basededatos\Proyecto Basededatos\bin\Debug\Proyecto Basededatos.exe.config
+C:\Users\User\Downloads\¿'\Proyecto Basededatos\Proyecto Basededatos\bin\Debug\Proyecto Basededatos.exe
+C:\Users\User\Downloads\¿'\Proyecto Basededatos\Proyecto Basededatos\bin\Debug\Proyecto Basededatos.pdb
+C:\Users\User\Downloads\¿'\Proyecto Basededatos\Proyecto Basededatos\bin\Debug\Proyecto Basededatos.xml
+C:\Users\User\Downloads\¿'\Proyecto Basededatos\Proyecto Basededatos\bin\Debug\Oracle.DataAccess.dll
+C:\Users\User\Downloads\¿'\Proyecto Basededatos\Proyecto Basededatos\obj\Debug\Proyecto Basededatos.vbprojAssemblyReference.cache
+C:\Users\User\Downloads\¿'\Proyecto Basededatos\Proyecto Basededatos\obj\Debug\Proyecto_Basededatos.AgregarTec.resources
+C:\Users\User\Downloads\¿'\Proyecto Basededatos\Proyecto Basededatos\obj\Debug\Proyecto_Basededatos.Tec.resources
+C:\Users\User\Downloads\¿'\Proyecto Basededatos\Proyecto Basededatos\obj\Debug\Proyecto_Basededatos.Resources.resources
+C:\Users\User\Downloads\¿'\Proyecto Basededatos\Proyecto Basededatos\obj\Debug\Proyecto Basededatos.vbproj.GenerateResource.cache
+C:\Users\User\Downloads\¿'\Proyecto Basededatos\Proyecto Basededatos\obj\Debug\Proyecto Basededatos.vbproj.CoreCompileInputs.cache
+C:\Users\User\Downloads\¿'\Proyecto Basededatos\Proyecto Basededatos\obj\Debug\Proyecto Basededatos.vbproj.CopyComplete
+C:\Users\User\Downloads\¿'\Proyecto Basededatos\Proyecto Basededatos\obj\Debug\Proyecto Basededatos.exe
+C:\Users\User\Downloads\¿'\Proyecto Basededatos\Proyecto Basededatos\obj\Debug\Proyecto Basededatos.xml
+C:\Users\User\Downloads\¿'\Proyecto Basededatos\Proyecto Basededatos\obj\Debug\Proyecto Basededatos.pdb
+C:\Users\User\Downloads\¿'\Proyecto Basededatos\Proyecto Basededatos\obj\Debug\Proyecto_Basededatos.AgregarCarreras.resources
+C:\Users\User\Downloads\¿'\Proyecto Basededatos\Proyecto Basededatos\obj\Debug\Proyecto_Basededatos.AgregarAlumnos.resources
+C:\Users\User\Downloads\¿'\Proyecto Basededatos\Proyecto Basededatos\obj\Debug\Proyecto_Basededatos.AgregarDepartamentos.resources
+C:\Users\User\Downloads\¿'\Proyecto Basededatos\Proyecto Basededatos\obj\Debug\Proyecto_Basededatos.AgregarEntrenadores.resources
+C:\Users\User\Downloads\¿'\Proyecto Basededatos\Proyecto Basededatos\obj\Debug\Proyecto_Basededatos.Generos.resources
+C:\Users\User\Downloads\¿'\Proyecto Basededatos\Proyecto Basededatos\obj\Debug\Proyecto_Basededatos.AgregarEquiposDeportivos.resources
+C:\Users\User\Downloads\¿'\Proyecto Basededatos\Proyecto Basededatos\obj\Debug\Proyecto_Basededatos.AgregarIntegrantes.resources
+C:\Users\User\Downloads\¿'\Proyecto Basededatos\Proyecto Basededatos\obj\Debug\Proyecto_Basededatos.AgregarParticipaciones.resources
+C:\Users\User\Downloads\¿'\Proyecto Basededatos\Proyecto Basededatos\obj\Debug\Proyecto_Basededatos.Login.resources
+C:\Users\User\Downloads\¿'\Proyecto Basededatos\Proyecto Basededatos\obj\Debug\Proyecto_Basededatos.AgregarEstados.resources
+C:\Users\User\Downloads\¿'\Proyecto Basededatos\Proyecto Basededatos\obj\Debug\Proyecto_Basededatos.AgregarCiudades.resources
+C:\Users\User\Downloads\¿'\Proyecto Basededatos\Proyecto Basededatos\obj\Debug\Proyecto_Basededatos.AgregarLogin.resources
